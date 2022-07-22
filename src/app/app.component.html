@@ -1,10 +1,22 @@
-<hello name="{{ name }}"></hello>
-<style>
-p
- {
-  font-color :blue;font-family:serif;font-size :20px;
- }
-</style>
-<p>
-  Students details are required for report
-</p>
+<header>
+  <h1 class="one">
+    Price &nbsp;
+    Ratings
+  </h1>
+
+
+<table id="mark">
+  <tr>
+    <th *ngFor="let column of headers">
+      {{ column }}
+    </th>
+  </tr>
+  <tr *ngFor="let row of rows">
+    <td *ngFor="let column of headers">
+      {{ row[column] }}
+    </td>
+  </tr>
+</table>
+</header>
+<button>SELECT&rarr;</button>
+
