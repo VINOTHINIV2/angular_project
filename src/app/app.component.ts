@@ -7,44 +7,43 @@ import { Component, VERSION } from '@angular/core';
 })
 export class AppComponent {
   name = 'ANGULAR ' + VERSION.major;
-  public headers = ['S.No', 'Name', 'Class','Team','Score'];
+  public headers = ['S no', 'Name', 'Class','Team','Score'];
   public rows = [
     {
-      S.No :'1',
-      Name :'Ajay' ,
-      Class : 'B',
-      Team : 'Blue',
-      Score :'80',
-    },
-    {
-      S.No :'2',
-      Name :'Vicky' ,
-      Class : 'A',
-      Team : 'Red',
-      Score :'82',
-     },
-    {
-       S.No :'3',
-      Name :'Riya' ,
-      Class : 'A',
-      Team : 'Green',
+      S no :'1',
+      Name :'Vicky',
+      Class :'B',
+      Team :'Red',
       Score :'85',
     },
     {
-       S.No :'4',
-      Name :'Kavin' ,
-      Class : 'C',
-      Team : 'Blue',
+      S no :'2',
+      Name :'Princy',
+      Class :'A',
+      Team :'Blue',
+      Score :'80',
+    },
+    {
+      S no :'3',
+      Name :'Aravind',
+      Class :'C',
+      Team :'Green',
       Score :'90',
     },
     {
-       S.No :'5',
-      Name :'Keerthi' ,
-      Class : 'B',
-      Team : 'Yellow',
-      Score :'79',
+      S no :'4',
+      Name :'Karthi',
+      Class :'B',
+      Team :'Yellow',
+      Score :'75',
     },
+    {
+      S no :'5',
+      Name :'Priya',
+      Class :'A',
+      Team :'Red',
+      Score :'84',
+    }
   
   ];
 }
-
